@@ -1,0 +1,742 @@
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga_cs.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
+xst -intstyle ise -ifn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.xst" -ofn "D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/IO_2.ucf -p xc3s200an-ftg256-4 shevm_fpga.ngc shevm_fpga.ngd  
+map -intstyle ise -p xc3s200an-ftg256-4 -cm area -ir off -pr off -c 100 -o shevm_fpga_map.ncd shevm_fpga.ngd shevm_fpga.pcf 
+par -w -intstyle ise -ol high -t 1 shevm_fpga_map.ncd shevm_fpga.ncd shevm_fpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shevm_fpga.twx shevm_fpga.ncd -o shevm_fpga.twr shevm_fpga.pcf 
+bitgen -intstyle ise -f shevm_fpga.ut shevm_fpga.ncd 
