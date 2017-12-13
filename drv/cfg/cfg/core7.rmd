@@ -1,0 +1,15 @@
+core7.out
+-a
+-boot
+-e _c_int00
+-order L
+-map core7.map
+ROMS
+{
+   ROM1:  org = 0x0880, length = 0x2000000, memwidth = 32, romwidth = 32
+          files = { core7.btbl }
+          
+}          
+          
+          
+          

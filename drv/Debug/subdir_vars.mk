@@ -2,55 +2,38 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-SHELL = cmd.exe
-
 # Add inputs and outputs from these tool invocations to the build variables 
-C_SRCS += \
-../board_init.c \
-../edma_test.c \
-../ipc.c \
-../net_client.c \
-../osal.c \
-../resourcemgr.c 
+CMD_SRCS += \
+../link.cmd 
 
-C_DEPS += \
-./board_init.d \
-./edma_test.d \
-./ipc.d \
-./net_client.d \
-./osal.d \
-./resourcemgr.d 
+C_SRCS += \
+../main.c \
+../nand_flash.c \
+../xmc_setup.c 
 
 OBJS += \
-./board_init.obj \
-./edma_test.obj \
-./ipc.obj \
-./net_client.obj \
-./osal.obj \
-./resourcemgr.obj 
+./main.obj \
+./nand_flash.obj \
+./xmc_setup.obj 
 
-OBJS__QUOTED += \
-"board_init.obj" \
-"edma_test.obj" \
-"ipc.obj" \
-"net_client.obj" \
-"osal.obj" \
-"resourcemgr.obj" 
+C_DEPS += \
+./main.pp \
+./nand_flash.pp \
+./xmc_setup.pp 
 
 C_DEPS__QUOTED += \
-"board_init.d" \
-"edma_test.d" \
-"ipc.d" \
-"net_client.d" \
-"osal.d" \
-"resourcemgr.d" 
+"main.pp" \
+"nand_flash.pp" \
+"xmc_setup.pp" 
+
+OBJS__QUOTED += \
+"main.obj" \
+"nand_flash.obj" \
+"xmc_setup.obj" 
 
 C_SRCS__QUOTED += \
-"../board_init.c" \
-"../edma_test.c" \
-"../ipc.c" \
-"../net_client.c" \
-"../osal.c" \
-"../resourcemgr.c" 
+"../main.c" \
+"../nand_flash.c" \
+"../xmc_setup.c" 
 
 

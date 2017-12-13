@@ -1,0 +1,1466 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: shevm_fpga.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "shevm_fpga.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "shevm_fpga"
+Output Format                      : NGC
+Target Device                      : xc3s200an-4-ftg256
+
+---- Source Options
+Top Module Name                    : shevm_fpga
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : User
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+Setting FSM Encoding Algorithm to : User
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "src/reset_req_s.v" in library work
+Compiling verilog include file "src/params.v"
+Compiling verilog file "src/debouncer.v" in library work
+Compiling verilog include file "src/params.v"
+Module <reset_req_s> compiled
+Compiling verilog file "src/clock_spi3x.v" in library work
+Module <debouncer> compiled
+Compiling verilog file "src/clock_spi2x.v" in library work
+Module <CDCE62005_3x> compiled
+Compiling verilog file "src/shevm_fpga_core.v" in library work
+Compiling verilog include file "src/params.v"
+Module <CDCE62005_2x> compiled
+Compiling verilog file "src/diff_2_sig_clk.v" in library work
+Compiling verilog include file "src/params.v"
+Module <shevm_fpga_core> compiled
+Compiling verilog file "ipcore_dir/vio.v" in library work
+Module <diff_2_sig_clk> compiled
+Compiling verilog file "ipcore_dir/ila.v" in library work
+Module <vio> compiled
+Compiling verilog file "ipcore_dir/icon.v" in library work
+Module <ila> compiled
+Compiling verilog file "dcm.v" in library work
+Module <icon> compiled
+Compiling verilog file "src/shevm_fpga.v" in library work
+Compiling verilog include file "src/params.v"
+Module <dcm> compiled
+Module <shevm_fpga> compiled
+No errors in compilation
+Analysis of file <"shevm_fpga.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <shevm_fpga> in library <work>.
+
+Analyzing hierarchy for module <shevm_fpga_core> in library <work> with parameters.
+	SM_CLKG = "0111"
+	SM_FAIL = "1101"
+	SM_IDLE = "0000"
+	SM_PMB2 = "0011"
+	SM_PMBS = "0010"
+	SM_POFF1 = "1011"
+	SM_POFF2 = "1100"
+	SM_PORWR = "1000"
+	SM_PWOK = "1010"
+	SM_V075 = "0110"
+	SM_V1P5 = "0101"
+	SM_V1P8 = "0100"
+	SM_V2P5 = "0001"
+	SM_WAIT = "1001"
+
+Analyzing hierarchy for module <dcm> in library <work>.
+
+Analyzing hierarchy for module <diff_2_sig_clk> in library <work>.
+
+Analyzing hierarchy for module <CDCE62005_2x> in library <work> with parameters.
+	clk_gen_wait_100u_time = "00001001110001000"
+	clk_gen_wait_2m_time = "11000011010100000"
+
+Analyzing hierarchy for module <CDCE62005_3x> in library <work> with parameters.
+	clk_gen_wait_100u_time = "00001001110001000"
+	clk_gen_wait_2m_time = "11000011010100000"
+
+Analyzing hierarchy for module <debouncer> in library <work>.
+
+Analyzing hierarchy for module <reset_req_s> in library <work> with parameters.
+	hreset_assert = "1001"
+	hreset_check = "1000"
+	hreset_delay = "1010"
+	hreset_release = "1011"
+	idle = "0000"
+	por_assert = "0001"
+	por_delay = "0010"
+	por_release = "0011"
+	resetfull_assert = "0101"
+	resetfull_check = "0100"
+	resetfull_delay = "0110"
+	resetfull_release = "0111"
+	sreset_assert = "1101"
+	sreset_check = "1100"
+	sreset_delay = "1110"
+	sreset_release = "1111"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <shevm_fpga>.
+WARNING:Xst:852 - "src/shevm_fpga.v" line 213: Unconnected input port 'RST_IN' of instance 'dcm_inst' is tied to GND.
+WARNING:Xst:2211 - "ipcore_dir/vio.v" line 255: Instantiating black box module <vio>.
+WARNING:Xst:2211 - "ipcore_dir/icon.v" line 261: Instantiating black box module <icon>.
+WARNING:Xst:2211 - "ipcore_dir/ila.v" line 266: Instantiating black box module <ila>.
+Module <shevm_fpga> is correct for synthesis.
+ 
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <vio_inst> in unit <shevm_fpga>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <vio_inst> in unit <shevm_fpga>.
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <icon_inst> in unit <shevm_fpga>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <icon_inst> in unit <shevm_fpga>.
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <ila_inst> in unit <shevm_fpga>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <ila_inst> in unit <shevm_fpga>.
+    Set user-defined property "KEEP =  TRUE" for signal <DEBUG_LED_p> in unit <shevm_fpga>.
+Analyzing module <shevm_fpga_core> in library <work>.
+	SM_CLKG = 4'b0111
+	SM_FAIL = 4'b1101
+	SM_IDLE = 4'b0000
+	SM_PMB2 = 4'b0011
+	SM_PMBS = 4'b0010
+	SM_POFF1 = 4'b1011
+	SM_POFF2 = 4'b1100
+	SM_PORWR = 4'b1000
+	SM_PWOK = 4'b1010
+	SM_V075 = 4'b0110
+	SM_V1P5 = 4'b0101
+	SM_V1P8 = 4'b0100
+	SM_V2P5 = 4'b0001
+	SM_WAIT = 4'b1001
+WARNING:Xst:852 - "src/shevm_fpga_core.v" line 335: Unconnected input port 'start' of instance 'clk2' is tied to GND.
+WARNING:Xst:852 - "src/shevm_fpga_core.v" line 343: Unconnected input port 'start' of instance 'clk3' is tied to GND.
+Module <shevm_fpga_core> is correct for synthesis.
+ 
+WARNING:Xst:37 - Detected unknown constraint/property "mark_debug". This constraint/property is not supported by the current software release and will be ignored.
+Analyzing module <CDCE62005_2x> in library <work>.
+	clk_gen_wait_100u_time = 17'b00001001110001000
+	clk_gen_wait_2m_time = 17'b11000011010100000
+INFO:Xst:1433 - Contents of array <Write_data_buff> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <CDCE62005_2x> is correct for synthesis.
+ 
+Analyzing module <CDCE62005_3x> in library <work>.
+	clk_gen_wait_100u_time = 17'b00001001110001000
+	clk_gen_wait_2m_time = 17'b11000011010100000
+INFO:Xst:1433 - Contents of array <Write_data_buff> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <CDCE62005_3x> is correct for synthesis.
+ 
+Analyzing module <debouncer> in library <work>.
+Module <debouncer> is correct for synthesis.
+ 
+Analyzing module <reset_req_s> in library <work>.
+	hreset_assert = 4'b1001
+	hreset_check = 4'b1000
+	hreset_delay = 4'b1010
+	hreset_release = 4'b1011
+	idle = 4'b0000
+	por_assert = 4'b0001
+	por_delay = 4'b0010
+	por_release = 4'b0011
+	resetfull_assert = 4'b0101
+	resetfull_check = 4'b0100
+	resetfull_delay = 4'b0110
+	resetfull_release = 4'b0111
+	sreset_assert = 4'b1101
+	sreset_check = 4'b1100
+	sreset_delay = 4'b1110
+	sreset_release = 4'b1111
+Module <reset_req_s> is correct for synthesis.
+ 
+Analyzing module <dcm> in library <work>.
+Module <dcm> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLKIN_PERIOD =  20.833000" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <dcm>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <dcm>.
+Analyzing module <diff_2_sig_clk> in library <work>.
+Module <diff_2_sig_clk> is correct for synthesis.
+ 
+    Set property "SYN_NOPRUNE = 1" for unit <vio>.
+    Set property "SYN_NOPRUNE = 1" for unit <icon>.
+    Set property "SYN_NOPRUNE = 1" for unit <ila>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <fpga_rst_n_48s1> in unit <shevm_fpga_core> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <fpga_rst_n_48s2> in unit <shevm_fpga_core> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ucd9222_rst_no> in unit <shevm_fpga_core> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <vcc_5v_en_o> in unit <shevm_fpga_core> has a constant value of 1 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <diff_2_sig_clk>.
+    Related source file is "src/diff_2_sig_clk.v".
+WARNING:Xst:646 - Signal <mux_clk_cd_out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <mux_clk_ab_out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <D_record<5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <C_record<5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <B_record<5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <A_record<5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 3-bit register for signal <A_filter>.
+    Found 6-bit register for signal <A_record>.
+    Found 3-bit register for signal <B_filter>.
+    Found 6-bit register for signal <B_record>.
+    Found 3-bit register for signal <C_filter>.
+    Found 6-bit register for signal <C_record>.
+    Found 3-bit register for signal <D_filter>.
+    Found 6-bit register for signal <D_record>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <diff_2_sig_clk> synthesized.
+
+
+Synthesizing Unit <CDCE62005_2x>.
+    Related source file is "src/clock_spi2x.v".
+    Found 1-bit register for signal <PLL_Lock>.
+    Found 1-bit register for signal <CLOCK2_SSPCK_o>.
+    Found 1-bit register for signal <CLOCK2_SSPCS_o>.
+    Found 32-bit register for signal <Read_data>.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 96.
+    Found 6-bit up counter for signal <Bit_cnt>.
+    Found 17-bit up counter for signal <clk_c>.
+    Found 17-bit comparator greatequal for signal <clk_c$cmp_ge0000> created at line 238.
+    Found 17-bit comparator less for signal <clk_c$cmp_lt0000> created at line 242.
+    Found 17-bit register for signal <clk_gen_wait_time>.
+    Found 8-bit register for signal <Clock_cnt>.
+    Found 8-bit adder for signal <Clock_cnt$addsub0000> created at line 182.
+    Found 1-bit register for signal <count_en>.
+    Found 1-bit register for signal <dCLOCK2_SSPCK_o>.
+    Found 4-bit up counter for signal <ini_cnt>.
+    Found 1-bit register for signal <ini_done>.
+    Found 8-bit register for signal <ini_T7>.
+    Found 8-bit adder for signal <ini_T7$addsub0000> created at line 128.
+    Found 8-bit register for signal <M_rec_add>.
+    Found 8-bit up counter for signal <Pulse_width>.
+    Found 1-bit register for signal <R_W_ind>.
+    Found 2-bit register for signal <start_record>.
+    Found 1-bit register for signal <Vccpg_record>.
+    Found 1-bit xor2 for signal <wait_count_done>.
+    Found 1-bit register for signal <wait_count_done_cng>.
+    Found 1-bit register for signal <wait_count_done_cng_1t>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred  85 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <CDCE62005_2x> synthesized.
+
+
+Synthesizing Unit <CDCE62005_3x>.
+    Related source file is "src/clock_spi3x.v".
+    Found 1-bit register for signal <CLOCK3_SSPCK_o>.
+    Found 1-bit register for signal <CLOCK3_SSPCS_o>.
+    Found 1-bit register for signal <PLL_Lock3>.
+    Found 32-bit register for signal <Read_data>.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 85.
+    Found 6-bit up counter for signal <Bit_cnt>.
+    Found 17-bit up counter for signal <clk_c>.
+    Found 17-bit comparator greatequal for signal <clk_c$cmp_ge0000> created at line 225.
+    Found 17-bit comparator less for signal <clk_c$cmp_lt0000> created at line 229.
+    Found 17-bit register for signal <clk_gen_wait_time>.
+    Found 8-bit register for signal <Clock_cnt>.
+    Found 8-bit adder for signal <Clock_cnt$addsub0000> created at line 174.
+    Found 1-bit register for signal <count_en>.
+    Found 1-bit register for signal <dCLOCK3_SSPCK_o>.
+    Found 4-bit up counter for signal <ini_cnt>.
+    Found 1-bit register for signal <ini_done>.
+    Found 8-bit register for signal <ini_T7>.
+    Found 8-bit adder for signal <ini_T7$addsub0000> created at line 118.
+    Found 8-bit register for signal <M_rec_add>.
+    Found 8-bit up counter for signal <Pulse_width>.
+    Found 1-bit register for signal <R_W_ind>.
+    Found 2-bit register for signal <start_record>.
+    Found 1-bit register for signal <Vccpg_record>.
+    Found 1-bit xor2 for signal <wait_count_done>.
+    Found 1-bit register for signal <wait_count_done_cng>.
+    Found 1-bit register for signal <wait_count_done_cng_1t>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred  85 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <CDCE62005_3x> synthesized.
+
+
+Synthesizing Unit <debouncer>.
+    Related source file is "src/debouncer.v".
+    Found 1-bit register for signal <signal_o>.
+    Found 16-bit up counter for signal <clk_c>.
+    Found 16-bit comparator greatequal for signal <clk_c$cmp_ge0000> created at line 49.
+    Found 1-bit register for signal <debounce_clk>.
+    Found 1-bit register for signal <signal_sample_1>.
+    Found 1-bit register for signal <signal_sample_2>.
+    Found 1-bit register for signal <signal_sample_3>.
+    Found 1-bit register for signal <signal_sample_4>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debouncer> synthesized.
+
+
+Synthesizing Unit <reset_req_s>.
+    Related source file is "src/reset_req_s.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <reset_st> of Case statement line 89 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <reset_st> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:1799 - State 0010 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 0001 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 0011 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 1001 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 1000 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 1010 is never reached in FSM <reset_st>.
+INFO:Xst:1799 - State 1011 is never reached in FSM <reset_st>.
+    Found finite state machine <FSM_0> for signal <reset_st>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 42                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst_n                     (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | user                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <por_out_n>.
+    Found 1-bit register for signal <reset_out_n>.
+    Found 1-bit register for signal <resetfull_out_n>.
+    Found 24-bit register for signal <delay_timing_counter>.
+    Found 24-bit adder for signal <delay_timing_counter$share0000> created at line 89.
+    Found 24-bit comparator greatequal for signal <reset_st$cmp_ge0000> created at line 128.
+    Found 24-bit comparator greatequal for signal <reset_st$cmp_ge0001> created at line 148.
+    Found 24-bit comparator greatequal for signal <reset_st$cmp_ge0002> created at line 171.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <reset_req_s> synthesized.
+
+
+Synthesizing Unit <shevm_fpga_core>.
+    Related source file is "src/shevm_fpga_core.v".
+WARNING:Xst:647 - Input <clock3_pll_lock_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dsp_sysclkout_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <user_define_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dsp_hout_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <dsp_vd_1_o> is never assigned. Tied to value 0.
+WARNING:Xst:647 - Input <clock2_pll_lock_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <bm_gpio_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dsp_vcl_1_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dsp_bootcomplete_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <warm_reset_s2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <warm_reset_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <user_define> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_w> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_rw> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_reg_256_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_reg_256> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_reg_128_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_reg_128> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_rdy> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_cs> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi_a> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <spi3_ready> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi3_busy_s2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi3_busy_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <spi3_busy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <spi2_ready> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi2_busy_s2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <spi2_busy_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <spi2_busy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <set_spi_reg_256> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <set_spi_reg_128> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <power_fail_check> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <power_fail> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <pciessen> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <lock_reset> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <full_reset_s2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <full_reset_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fpga_rst_n_48s2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fpga_rst_n_48s1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fpga_rst_n> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dsp_resetstat_n> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dsp_gpio_d> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dsp_gpio> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <coldreset_n_48s2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cold_reset_s2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cold_reset_s1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock3_sspcs1_d1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock3_datao> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock2_sspcs1_d1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock2_datao> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <bm_gpio> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <PG_ST> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+INFO:Xst:1799 - State 1101 is never reached in FSM <PW_SM>.
+    Found finite state machine <FSM_1> for signal <PW_SM>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 39                                             |
+    | Inputs             | 16                                             |
+    | Outputs            | 14                                             |
+    | Clock              | main_48mhz_clk_r_i        (rising_edge)        |
+    | Reset              | fpga_rstn                 (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | user                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <vcc2p5_en_o>.
+    Found 16-bit tristate buffer for signal <dsp_gpio_io>.
+    Found 1-bit register for signal <vcc1p8_en1_o>.
+    Found 1-bit register for signal <vcc1p5_en_o>.
+    Found 1-bit register for signal <ucd9222_ena1_o>.
+    Found 1-bit register for signal <vcc0p75_en_o>.
+    Found 1-bit register for signal <refclk3_pd_no>.
+    Found 1-bit register for signal <ucd9222_ena2_o>.
+    Found 1-bit register for signal <refclk2_pd_no>.
+    Found 1-bit register for signal <dsp_timi0_o>.
+    Found 1-bit register for signal <all_power>.
+    Found 2-bit register for signal <clock2_pll_lock_d>.
+    Found 2-bit register for signal <clock3_pll_lock_d>.
+    Found 32-bit register for signal <dsp_gpio_ctrl_delay>.
+    Found 32-bit adder for signal <dsp_gpio_ctrl_delay$addsub0000> created at line 440.
+    Found 32-bit 4-to-1 multiplexer for signal <dsp_gpio_ctrl_delay$mux0000>.
+    Found 1-bit register for signal <dsp_gpio_en>.
+    Found 32-bit comparator greatequal for signal <dsp_gpio_en$cmp_ge0000> created at line 434.
+    Found 1-bit register for signal <dsp_resetstat_n_48s1>.
+    Found 1-bit register for signal <dsp_resetstat_n_48s2>.
+    Found 2-bit register for signal <dsp_resetstat_nd>.
+    Found 8-bit up counter for signal <fail_power_c>.
+    Found 28-bit up counter for signal <freerun_counter>.
+    Found 1-bit register for signal <fullreset_n_48s1>.
+    Found 1-bit register for signal <fullreset_n_48s2>.
+    Found 1-bit register for signal <half_clk>.
+    Found 4-bit up counter for signal <heart_beat>.
+    Found 2-bit register for signal <pgucd9222_d>.
+    Found 24-bit register for signal <PW_c>.
+    Found 24-bit adder for signal <PW_c$share0000> created at line 521.
+    Found 24-bit comparator greatequal for signal <PW_SM$cmp_ge0000> created at line 524.
+    Found 24-bit comparator greatequal for signal <PW_SM$cmp_ge0001> created at line 558.
+    Found 24-bit comparator greatequal for signal <PW_SM$cmp_ge0002> created at line 618.
+    Found 24-bit comparator greatequal for signal <PW_SM$cmp_ge0003> created at line 622.
+    Found 8-bit comparator greater for signal <PW_SM$cmp_gt0000> created at line 743.
+    Found 1-bit register for signal <resetfull_req_n>.
+    Found 1-bit register for signal <set_clk2>.
+    Found 24-bit comparator less for signal <set_clk2$cmp_lt0000> created at line 614.
+    Found 24-bit register for signal <set_clk2_c>.
+    Found 24-bit adder for signal <set_clk2_c$addsub0000> created at line 639.
+    Found 1-bit register for signal <set_clk3>.
+    Found 24-bit comparator less for signal <set_clk3$cmp_lt0000> created at line 618.
+    Found 24-bit register for signal <set_clk3_c>.
+    Found 24-bit adder for signal <set_clk3_c$addsub0000> created at line 630.
+    Found 1-bit register for signal <softreset_req_n>.
+    Found 2-bit register for signal <ucd9222_pg1_d>.
+    Found 2-bit register for signal <ucd9222_pg2_d>.
+    Found 2-bit register for signal <vcc0p75_pgood_d>.
+    Found 2-bit register for signal <vcc1p5_pgood_d>.
+    Found 2-bit register for signal <vcc1p8_pgood_d>.
+    Found 2-bit register for signal <vcc2p5_pgood_d>.
+    Found 2-bit register for signal <vcc5_pgood_d>.
+    Found 1-bit register for signal <warmreset_n_48s1>.
+    Found 1-bit register for signal <warmreset_n_48s2>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred 147 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred  32 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <shevm_fpga_core> synthesized.
+
+
+Synthesizing Unit <dcm>.
+    Related source file is "dcm.v".
+Unit <dcm> synthesized.
+
+
+Synthesizing Unit <shevm_fpga>.
+    Related source file is "src/shevm_fpga.v".
+WARNING:Xst:647 - Input <NORFLASH_RST_N_p> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <VCC3_AUX_PGOOD_p> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <USER_DEFINE_p> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <PCIESSEN_p> is never assigned. Tied to value 0.
+WARNING:Xst:653 - Signal <pmbus_ctl_d> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <S_TDM_CLKC> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <S_TDM_CLKA> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <SYNC_OUT<7:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <shevm_fpga> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+WARNING:Xst:524 - All outputs of the instance <debouncer3> of the block <debouncer> are unconnected in block <shevm_fpga_core>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 24-bit adder                                          : 4
+ 32-bit adder                                          : 1
+ 8-bit adder                                           : 4
+# Counters                                             : 12
+ 16-bit up counter                                     : 2
+ 17-bit up counter                                     : 2
+ 28-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+ 6-bit up counter                                      : 2
+ 8-bit up counter                                      : 3
+# Registers                                            : 169
+ 1-bit register                                        : 137
+ 17-bit register                                       : 2
+ 2-bit register                                        : 13
+ 24-bit register                                       : 4
+ 3-bit register                                        : 4
+ 32-bit register                                       : 1
+ 6-bit register                                        : 4
+ 8-bit register                                        : 4
+# Comparators                                          : 17
+ 16-bit comparator greatequal                          : 2
+ 17-bit comparator greatequal                          : 2
+ 17-bit comparator less                                : 2
+ 24-bit comparator greatequal                          : 7
+ 24-bit comparator less                                : 2
+ 32-bit comparator greatequal                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 3
+ 1-bit 32-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+# Tristates                                            : 1
+ 16-bit tristate buffer                                : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Optimizing FSM <core/PW_SM/FSM> on signal <PW_SM[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+ 1001  | 1001
+ 1010  | 1010
+ 1011  | 1011
+ 1100  | 1100
+ 1101  | unreached
+-------------------
+Optimizing FSM <core/reset_req_ctrl/reset_st/FSM> on signal <reset_st[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | unreached
+ 0010  | unreached
+ 0011  | unreached
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | unreached
+ 1001  | unreached
+ 1010  | unreached
+ 1011  | unreached
+ 1100  | 1100
+ 1101  | 1101
+ 1110  | 1110
+ 1111  | 1111
+-------------------
+WARNING:Xst:79 - Model 'dcm' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'dcm1'
+Reading core <ipcore_dir/vio.ngc>.
+Reading core <ipcore_dir/icon.ngc>.
+Reading core <ipcore_dir/ila.ngc>.
+Loading core <vio> for timing and area information for instance <vio_inst>.
+Loading core <icon> for timing and area information for instance <icon_inst>.
+Loading core <ila> for timing and area information for instance <ila_inst>.
+WARNING:Xst:1290 - Hierarchical block <DIFF> is unconnected in block <shevm_fpga>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_14> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_13> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_11> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_6> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_4> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_2> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_1> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_0> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <start_record_0> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_14> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_13> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_11> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_6> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_4> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_2> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_1> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_gen_wait_time_0> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <start_record_0> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <start_record_1> (without init value) has a constant value of 0 in block <clk3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <start_record_1> (without init value) has a constant value of 0 in block <clk2>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 9
+ 24-bit adder                                          : 4
+ 32-bit adder                                          : 1
+ 8-bit adder                                           : 4
+# Counters                                             : 11
+ 16-bit up counter                                     : 2
+ 17-bit up counter                                     : 2
+ 4-bit up counter                                      : 2
+ 6-bit up counter                                      : 2
+ 8-bit up counter                                      : 3
+# Registers                                            : 393
+ Flip-Flops                                            : 393
+# Comparators                                          : 17
+ 16-bit comparator greatequal                          : 2
+ 17-bit comparator greatequal                          : 2
+ 17-bit comparator less                                : 2
+ 24-bit comparator greatequal                          : 7
+ 24-bit comparator less                                : 2
+ 32-bit comparator greatequal                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 3
+ 1-bit 32-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <start_record_0> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_0> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_1> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_2> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_4> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_6> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_11> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_13> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_14> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <start_record_1> (without init value) has a constant value of 0 in block <CDCE62005_2x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <start_record_0> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_0> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_1> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_2> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_4> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_6> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_11> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_13> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_gen_wait_time_14> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <start_record_1> (without init value) has a constant value of 0 in block <CDCE62005_3x>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <B_filter_0> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D_filter_0> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <B_filter_1> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D_filter_1> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <B_filter_2> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D_filter_2> (without init value) has a constant value of 0 in block <diff_2_sig_clk>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <A_filter_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_filter_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_filter_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_filter_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_filter_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_filter_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_4> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_3> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_5> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <D_record_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_4> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_3> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_5> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <C_record_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_4> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_3> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_5> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <B_record_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_4> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_3> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_5> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_1> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_0> of sequential type is unconnected in block <diff_2_sig_clk>.
+WARNING:Xst:2677 - Node <A_record_2> of sequential type is unconnected in block <diff_2_sig_clk>.
+
+Optimizing unit <shevm_fpga> ...
+
+Optimizing unit <CDCE62005_2x> ...
+
+Optimizing unit <CDCE62005_3x> ...
+
+Optimizing unit <debouncer> ...
+
+Optimizing unit <reset_req_s> ...
+WARNING:Xst:1710 - FF/Latch <por_out_n> (without init value) has a constant value of 1 in block <reset_req_s>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <dcm1> ...
+
+Optimizing unit <diff_2_sig_clk> ...
+
+Optimizing unit <shevm_fpga_core> ...
+WARNING:Xst:2677 - Node <Read_data_31> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_30> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_29> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_28> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_27> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_26> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_25> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_24> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_23> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_22> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_21> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_20> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_19> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_18> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_17> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_16> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_15> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_14> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_13> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_12> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_11> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_10> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_9> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_8> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_7> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_6> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_5> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_4> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_3> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_2> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_1> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_0> of sequential type is unconnected in block <clk2>.
+WARNING:Xst:2677 - Node <Read_data_31> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_30> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_29> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_28> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_27> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_26> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_25> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_24> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_23> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_22> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_21> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_20> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_19> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_18> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_17> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_16> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_15> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_14> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_13> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_12> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_11> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_10> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_9> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_8> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_7> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_6> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_5> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_4> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_3> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_2> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_1> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:2677 - Node <Read_data_0> of sequential type is unconnected in block <clk3>.
+WARNING:Xst:1290 - Hierarchical block <DIFF> is unconnected in block <shevm_fpga>.
+   It will be removed from the design.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block shevm_fpga, actual ratio is 66.
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[1].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[2].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[3].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[5].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[6].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+INFO:Xst:2260 - The FF/Latch <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/USER_CLK_REG> in Unit <vio_inst> is equivalent to the following 2 FFs/Latches : <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/sync_f_edge/U_DOUT0> <U0/I_VIO/GEN_SYNC_IN[7].SYNC_IN_CELL/sync_r_edge/U_DOUT0> 
+FlipFlop core/PW_SM_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop core/PW_SM_FSM_FFd2 has been replicated 1 time(s)
+FlipFlop core/PW_SM_FSM_FFd3 has been replicated 1 time(s)
+FlipFlop core/PW_SM_FSM_FFd4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 394
+ Flip-Flops                                            : 394
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : shevm_fpga.ngr
+Top Level Output File Name         : shevm_fpga
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+
+Design Statistics
+# IOs                              : 105
+
+Cell Usage :
+# BELS                             : 2065
+#      GND                         : 11
+#      INV                         : 68
+#      LUT1                        : 216
+#      LUT2                        : 145
+#      LUT2_D                      : 5
+#      LUT2_L                      : 1
+#      LUT3                        : 252
+#      LUT3_D                      : 3
+#      LUT3_L                      : 6
+#      LUT4                        : 498
+#      LUT4_D                      : 33
+#      LUT4_L                      : 16
+#      MUXCY                       : 313
+#      MUXCY_L                     : 128
+#      MUXF5                       : 64
+#      MUXF6                       : 14
+#      VCC                         : 10
+#      XORCY                       : 282
+# FlipFlops/Latches                : 1277
+#      FD                          : 128
+#      FDC                         : 203
+#      FDCE                        : 210
+#      FDCP                        : 1
+#      FDE                         : 146
+#      FDP                         : 150
+#      FDPE                        : 262
+#      FDR                         : 60
+#      FDRE                        : 102
+#      FDRS                        : 4
+#      FDS                         : 10
+#      LDC                         : 1
+# RAMS                             : 5
+#      RAMB16BWE                   : 5
+# Shift Registers                  : 251
+#      SRL16                       : 128
+#      SRL16E                      : 1
+#      SRLC16E                     : 122
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 80
+#      IBUF                        : 14
+#      IBUFG                       : 1
+#      IOBUF                       : 16
+#      OBUF                        : 49
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# Others                           : 1
+#      BSCAN_SPARTAN3A             : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200anftg256-4 
+
+ Number of Slices:                     1166  out of   1792    65%  
+ Number of Slice Flip Flops:           1277  out of   3584    35%  
+ Number of 4 input LUTs:               1494  out of   3584    41%  
+    Number used as logic:              1243
+    Number used as Shift registers:     251
+ Number of IOs:                         105
+ Number of bonded IOBs:                  79  out of    195    40%  
+ Number of BRAMs:                         5  out of     16    31%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+Clock Signal                                                                    | Clock buffer(FF name)                                       | Load  |
+--------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1                                      | BUFG                                                        | 280   |
+MAIN_48MHZ_CLK_R_p                                                              | DCM_SP_INST:CLK0                                            | 1230  |
+PMBUS_CTL_OBUF                                                                  | NONE(vio_inst/U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/U_RISING)| 8     |
+DSP_TSIP1_FSB1_p_OBUF                                                           | NONE(vio_inst/U0/I_VIO/GEN_SYNC_IN[4].SYNC_IN_CELL/U_RISING)| 8     |
+icon_inst/U0/iUPDATE_OUT                                                        | NONE(icon_inst/U0/U_ICON/U_iDATA_CMD)                       | 1     |
+icon_inst/CONTROL1<13>(icon_inst/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_LCE:O)| NONE(*)(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_LDC)        | 1     |
+core/clk2/CLOCK2_SSPCK_o                                                        | NONE(core/clk2/PLL_Lock)                                    | 1     |
+core/clk3/CLOCK3_SSPCK_o                                                        | NONE(core/clk3/PLL_Lock3)                                   | 1     |
+core/debouncer2/debounce_clk                                                    | NONE(core/debouncer2/signal_sample_1)                       | 4     |
+core/debouncer1/debounce_clk                                                    | NONE(core/debouncer1/signal_sample_1)                       | 4     |
+--------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                             | Buffer(FF name)                                                                                                      | Load  |
+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------+
+icon_inst/CONTROL1<20>(icon_inst/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[0].U_HCE:O)                           | NONE(ila_inst/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_SRL16.U_GANDX_SRL16/F_TW[0].U_TREG)| 256   |
+core/PW_SM_FSM_Acst_FSM_inv(core/dsp_timi0_o__and00001_INV_0:O)                                            | NONE(core/PW_SM_FSM_FFd1)                                                                                            | 164   |
+ila_inst/N0(ila_inst/XST_GND:G)                                                                            | NONE(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_POR)                                                                           | 129   |
+core/clk2/FPGA_rst_inv(core/clk2/FPGA_rst_inv571_INV_0:O)                                                  | NONE(core/clk2/CLOCK2_SSPCK_o)                                                                                       | 72    |
+core/clk3/FPGA_rst_inv(core/clk3/FPGA_rst_inv571_INV_0:O)                                                  | NONE(core/clk3/CLOCK3_SSPCK_o)                                                                                       | 72    |
+core/reset_req_ctrl/reset_st_FSM_Acst_FSM_inv(core/reset_req_ctrl/reset_st_FSM_Acst_FSM_inv1_INV_0:O)      | NONE(core/reset_req_ctrl/delay_timing_counter_0)                                                                     | 30    |
+core/debouncer1/reset_z_inv(core/debouncer1/reset_z_inv1_INV_0:O)                                          | NONE(core/debouncer1/clk_c_0)                                                                                        | 22    |
+core/debouncer2/reset_z_inv(core/debouncer2/reset_z_inv1_INV_0:O)                                          | NONE(core/debouncer2/clk_c_0)                                                                                        | 22    |
+vio_inst/U0/I_VIO/RESET(vio_inst/U0/I_VIO/reset_f_edge/I_H2L.U_DOUT:Q)                                     | NONE(vio_inst/U0/I_VIO/GEN_SYNC_IN[0].SYNC_IN_CELL/U_FALLING)                                                        | 16    |
+icon_inst/U0/U_ICON/U_CMD/iSEL_n(icon_inst/U0/U_ICON/U_CMD/U_SEL_n:O)                                      | NONE(icon_inst/U0/U_ICON/U_CMD/G_TARGET[10].I_NE0.U_TARGET)                                                          | 10    |
+core/clk2/CLOCK2_SSPCS_o(core/clk2/CLOCK2_SSPCS_o:Q)                                                       | NONE(core/clk2/Bit_cnt_0)                                                                                            | 6     |
+core/clk3/CLOCK3_SSPCS_o(core/clk3/CLOCK3_SSPCS_o:Q)                                                       | NONE(core/clk3/Bit_cnt_0)                                                                                            | 6     |
+ila_inst/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iCLR(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_CLEAR:O)        | NONE(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_DOUT0)                                                              | 4     |
+ila_inst/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iCLR(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_CLEAR:O)      | NONE(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_DOUT0)                                                             | 4     |
+ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/iCLR(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/U_CLEAR:O)              | NONE(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/U_DOUT0)                                                                 | 4     |
+vio_inst/U0/I_VIO/GEN_TRANS.U_ARM/iCLR(vio_inst/U0/I_VIO/GEN_TRANS.U_ARM/U_CLEAR:O)                        | NONE(vio_inst/U0/I_VIO/GEN_TRANS.U_ARM/U_DOUT0)                                                                      | 4     |
+ila_inst/U0/I_NO_D.U_ILA/iARM(ila_inst/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_GEN_DELAY[3].U_FD:Q)             | NONE(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDCE)                                                                   | 2     |
+core/dsp_coresel_o(core/XST_GND:G)                                                                         | NONE(core/dsp_timi0_o)                                                                                               | 1     |
+icon_inst/CONTROL1<13>(icon_inst/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_LCE:O)                           | NONE(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDPE)                                                                   | 1     |
+icon_inst/U0/U_ICON/iSEL_n(icon_inst/U0/U_ICON/U_iSEL_n:O)                                                 | NONE(icon_inst/U0/U_ICON/U_iDATA_CMD)                                                                                | 1     |
+ila_inst/U0/I_NO_D.U_ILA/U_STAT/ACTRESET_pulse(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_RESET_EDGE/I_H2L.U_DOUT:Q)| NONE(ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_RISING)                                                                       | 1     |
+ila_inst/U0/I_NO_D.U_ILA/iRESET<1>(ila_inst/U0/I_NO_D.U_ILA/U_RST/G_RST[1].U_RST:Q)                        | NONE(ila_inst/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_OREG.I_YES_OREG.U_OREG)                                | 1     |
+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.369ns (Maximum Frequency: 106.733MHz)
+   Minimum input arrival time before clock: 8.277ns
+   Maximum output required time after clock: 14.678ns
+   Maximum combinational path delay: 7.154ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Clock period: 9.369ns (frequency: 106.733MHz)
+  Total number of paths / destination ports: 4531 / 563
+-------------------------------------------------------------------------
+Delay:               9.369ns (Levels of Logic = 7)
+  Source:            icon_inst/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (FF)
+  Destination:       vio_inst/U0/I_VIO/U_STATUS/U_TDO (FF)
+  Source Clock:      icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+  Destination Clock: icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon_inst/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET to vio_inst/U0/I_VIO/U_STATUS/U_TDO
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            19   0.591   1.228  U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (U0/U_ICON/iCORE_ID<0>)
+     LUT4:I0->O           32   0.648   1.294  U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[0].U_LUT (U0/U_ICON/iCORE_ID_SEL<0>)
+     LUT4:I2->O            1   0.648   0.563  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_HCE (CONTROL0<33>)
+     end scope: 'icon_inst'
+     begin scope: 'vio_inst'
+     LUT4:I0->O            1   0.648   0.563  U0/I_VIO/U_STATUS/iSTAT_CNT<7>37 (U0/I_VIO/U_STATUS/iSTAT_CNT<7>37)
+     LUT3:I0->O            1   0.648   0.500  U0/I_VIO/U_STATUS/iSTAT_CNT<7>91_SW0 (N36)
+     LUT4:I1->O            1   0.643   0.500  U0/I_VIO/U_STATUS/iSTAT_CNT<7>91 (U0/I_VIO/U_STATUS/iSTAT_CNT<7>91)
+     LUT4:I1->O            1   0.643   0.000  U0/I_VIO/U_STATUS/iSTAT_CNT<7>221 (U0/I_VIO/U_STATUS/TDO_next)
+     FDE:D                     0.252          U0/I_VIO/U_STATUS/U_TDO
+    ----------------------------------------
+    Total                      9.369ns (4.721ns logic, 4.648ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'MAIN_48MHZ_CLK_R_p'
+  Clock period: 8.546ns (frequency: 117.014MHz)
+  Total number of paths / destination ports: 37231 / 1546
+-------------------------------------------------------------------------
+Delay:               8.546ns (Levels of Logic = 14)
+  Source:            core/reset_req_ctrl/delay_timing_counter_7 (FF)
+  Destination:       core/reset_req_ctrl/delay_timing_counter_0 (FF)
+  Source Clock:      MAIN_48MHZ_CLK_R_p rising
+  Destination Clock: MAIN_48MHZ_CLK_R_p rising
+
+  Data Path: core/reset_req_ctrl/delay_timing_counter_7 to core/reset_req_ctrl/delay_timing_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.776  delay_timing_counter_7 (delay_timing_counter_7)
+     LUT2:I0->O            1   0.648   0.000  Mcompar_reset_st_cmp_ge0002_lut<0> (Mcompar_reset_st_cmp_ge0002_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Mcompar_reset_st_cmp_ge0002_cy<0>_1 (Mcompar_reset_st_cmp_ge0002_cy<0>2)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<1>_1 (Mcompar_reset_st_cmp_ge0002_cy<1>2)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<2>_1 (Mcompar_reset_st_cmp_ge0002_cy<2>2)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<3>_1 (Mcompar_reset_st_cmp_ge0002_cy<3>2)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<4>_1 (Mcompar_reset_st_cmp_ge0002_cy<4>2)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<5>_1 (Mcompar_reset_st_cmp_ge0002_cy<5>1)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<6>_0 (Mcompar_reset_st_cmp_ge0002_cy<6>1)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_reset_st_cmp_ge0002_cy<7>_0 (Mcompar_reset_st_cmp_ge0002_cy<7>1)
+     MUXCY:CI->O           2   0.269   0.527  Mcompar_reset_st_cmp_ge0002_cy<8>_0 (reset_st_cmp_ge0000)
+     LUT3:I1->O            1   0.643   0.423  delay_timing_counter_mux0000<0>137 (delay_timing_counter_mux0000<0>137)
+     LUT4:I3->O            2   0.648   0.450  delay_timing_counter_mux0000<0>140 (delay_timing_counter_mux0000<0>140)
+     LUT4_D:I3->O         11   0.648   0.936  delay_timing_counter_mux0000<0>198 (N01)
+     LUT4:I3->O            1   0.648   0.000  delay_timing_counter_mux0000<19>1 (delay_timing_counter_mux0000<19>)
+     FDC:D                     0.252          delay_timing_counter_4
+    ----------------------------------------
+    Total                      8.546ns (5.434ns logic, 3.112ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'icon_inst/U0/iUPDATE_OUT'
+  Clock period: 2.442ns (frequency: 409.500MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.442ns (Levels of Logic = 1)
+  Source:            icon_inst/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:       icon_inst/U0/U_ICON/U_iDATA_CMD (FF)
+  Source Clock:      icon_inst/U0/iUPDATE_OUT rising
+  Destination Clock: icon_inst/U0/iUPDATE_OUT rising
+
+  Data Path: icon_inst/U0/U_ICON/U_iDATA_CMD to icon_inst/U0/U_ICON/U_iDATA_CMD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              1   0.648   0.420  U0/U_ICON/U_iDATA_CMD_n (U0/U_ICON/iDATA_CMD_n)
+     FDC:D                     0.252          U0/U_ICON/U_iDATA_CMD
+    ----------------------------------------
+    Total                      2.442ns (1.491ns logic, 0.951ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'core/debouncer2/debounce_clk'
+  Clock period: 1.374ns (frequency: 727.802MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.374ns (Levels of Logic = 0)
+  Source:            core/debouncer2/signal_sample_2 (FF)
+  Destination:       core/debouncer2/signal_sample_3 (FF)
+  Source Clock:      core/debouncer2/debounce_clk rising
+  Destination Clock: core/debouncer2/debounce_clk rising
+
+  Data Path: core/debouncer2/signal_sample_2 to core/debouncer2/signal_sample_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.591   0.531  signal_sample_2 (signal_sample_2)
+     FDP:D                     0.252          signal_sample_3
+    ----------------------------------------
+    Total                      1.374ns (0.843ns logic, 0.531ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'core/debouncer1/debounce_clk'
+  Clock period: 1.374ns (frequency: 727.802MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.374ns (Levels of Logic = 0)
+  Source:            core/debouncer1/signal_sample_2 (FF)
+  Destination:       core/debouncer1/signal_sample_3 (FF)
+  Source Clock:      core/debouncer1/debounce_clk rising
+  Destination Clock: core/debouncer1/debounce_clk rising
+
+  Data Path: core/debouncer1/signal_sample_2 to core/debouncer1/signal_sample_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.591   0.531  signal_sample_2 (signal_sample_2)
+     FDP:D                     0.252          signal_sample_3
+    ----------------------------------------
+    Total                      1.374ns (0.843ns logic, 0.531ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Total number of paths / destination ports: 355 / 299
+-------------------------------------------------------------------------
+Offset:              8.277ns (Levels of Logic = 7)
+  Source:            icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:SHIFT (PAD)
+  Destination:       vio_inst/U0/I_VIO/U_STATUS/U_TDO (FF)
+  Destination Clock: icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:SHIFT to vio_inst/U0/I_VIO/U_STATUS/U_TDO
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN3A:SHIFT    3   0.000   0.611  U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS (U0/iSHIFT_OUT)
+     LUT2:I1->O           64   0.643   1.415  U0/U_ICON/U_CTRL_OUT/U_DATA_VALID (U0/U_ICON/U_CTRL_OUT/iDATA_VALID)
+     LUT4:I0->O            1   0.648   0.563  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_HCE (CONTROL0<33>)
+     end scope: 'icon_inst'
+     begin scope: 'vio_inst'
+     LUT4:I0->O            1   0.648   0.563  U0/I_VIO/U_STATUS/iSTAT_CNT<7>37 (U0/I_VIO/U_STATUS/iSTAT_CNT<7>37)
+     LUT3:I0->O            1   0.648   0.500  U0/I_VIO/U_STATUS/iSTAT_CNT<7>91_SW0 (N36)
+     LUT4:I1->O            1   0.643   0.500  U0/I_VIO/U_STATUS/iSTAT_CNT<7>91 (U0/I_VIO/U_STATUS/iSTAT_CNT<7>91)
+     LUT4:I1->O            1   0.643   0.000  U0/I_VIO/U_STATUS/iSTAT_CNT<7>221 (U0/I_VIO/U_STATUS/TDO_next)
+     FDE:D                     0.252          U0/I_VIO/U_STATUS/U_TDO
+    ----------------------------------------
+    Total                      8.277ns (4.125ns logic, 4.152ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'MAIN_48MHZ_CLK_R_p'
+  Total number of paths / destination ports: 21 / 21
+-------------------------------------------------------------------------
+Offset:              5.449ns (Levels of Logic = 3)
+  Source:            icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:SHIFT (PAD)
+  Destination:       vio_inst/U0/I_VIO/GEN_UPDATE_OUT[8].UPDATE_CELL/GEN_CLK.USER_REG (FF)
+  Destination Clock: MAIN_48MHZ_CLK_R_p falling
+
+  Data Path: icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:SHIFT to vio_inst/U0/I_VIO/GEN_UPDATE_OUT[8].UPDATE_CELL/GEN_CLK.USER_REG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN3A:SHIFT    3   0.000   0.611  U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS (U0/iSHIFT_OUT)
+     LUT2:I1->O           64   0.643   1.415  U0/U_ICON/U_CTRL_OUT/U_DATA_VALID (U0/U_ICON/U_CTRL_OUT/iDATA_VALID)
+     LUT4:I0->O           33   0.648   1.263  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[1].U_LCE (CONTROL0<5>)
+     end scope: 'icon_inst'
+     begin scope: 'vio_inst'
+     FDRE:R                    0.869          U0/I_VIO/GEN_UPDATE_OUT[15].UPDATE_CELL/GEN_CLK.USER_REG
+    ----------------------------------------
+    Total                      5.449ns (2.160ns logic, 3.289ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'core/clk2/CLOCK2_SSPCK_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 2)
+  Source:            CLOCK2_SSPSO_p (PAD)
+  Destination:       core/clk2/PLL_Lock (FF)
+  Destination Clock: core/clk2/CLOCK2_SSPCK_o rising
+
+  Data Path: CLOCK2_SSPSO_p to core/clk2/PLL_Lock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  CLOCK2_SSPSO_p_IBUF (CLOCK2_SSPSO_p_IBUF)
+     begin scope: 'core'
+     begin scope: 'clk2'
+     FDCE:D                    0.252          PLL_Lock
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'core/clk3/CLOCK3_SSPCK_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 2)
+  Source:            CLOCK3_SSPSO_p (PAD)
+  Destination:       core/clk3/PLL_Lock3 (FF)
+  Destination Clock: core/clk3/CLOCK3_SSPCK_o rising
+
+  Data Path: CLOCK3_SSPSO_p to core/clk3/PLL_Lock3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  CLOCK3_SSPSO_p_IBUF (CLOCK3_SSPSO_p_IBUF)
+     begin scope: 'core'
+     begin scope: 'clk3'
+     FDCE:D                    0.252          PLL_Lock3
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'core/debouncer2/debounce_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 2)
+  Source:            WARM_RESET_p (PAD)
+  Destination:       core/debouncer2/signal_sample_1 (FF)
+  Destination Clock: core/debouncer2/debounce_clk rising
+
+  Data Path: WARM_RESET_p to core/debouncer2/signal_sample_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  WARM_RESET_p_IBUF (WARM_RESET_p_IBUF)
+     begin scope: 'core'
+     begin scope: 'debouncer2'
+     FDP:D                     0.252          signal_sample_1
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'core/debouncer1/debounce_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 2)
+  Source:            FULL_RESET_p (PAD)
+  Destination:       core/debouncer1/signal_sample_1 (FF)
+  Destination Clock: core/debouncer1/debounce_clk rising
+
+  Data Path: FULL_RESET_p to core/debouncer1/signal_sample_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  FULL_RESET_p_IBUF (FULL_RESET_p_IBUF)
+     begin scope: 'core'
+     begin scope: 'debouncer1'
+     FDP:D                     0.252          signal_sample_1
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'MAIN_48MHZ_CLK_R_p'
+  Total number of paths / destination ports: 778 / 42
+-------------------------------------------------------------------------
+Offset:              14.678ns (Levels of Logic = 12)
+  Source:            core/clk3/ini_done (FF)
+  Destination:       CLOCK3_SSPSI_p (PAD)
+  Source Clock:      MAIN_48MHZ_CLK_R_p rising
+
+  Data Path: core/clk3/ini_done to CLOCK3_SSPSI_p
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            22   0.591   1.307  ini_done (ini_done)
+     LUT3:I0->O            8   0.648   0.789  Write_data_buff<8>11 (N7)
+     LUT4:I2->O            1   0.648   0.563  Write_data_buff<17>1 (Write_data_buff<17>)
+     LUT2:I0->O            1   0.648   0.000  Mmux__varindex0000_13 (Mmux__varindex0000_13)
+     MUXF5:I0->O           2   0.276   0.479  Mmux__varindex0000_11_f5 (Mmux__varindex0000_11_f5)
+     LUT4:I2->O            1   0.648   0.000  Mmux__varindex0000_9_f61 (Mmux__varindex0000_9_f61)
+     MUXF5:I1->O           1   0.276   0.500  Mmux__varindex0000_9_f6_f5 (Mmux__varindex0000_9_f6)
+     LUT3:I1->O            1   0.643   0.000  CLOCK3_SSPSI_o139_G (N72)
+     MUXF5:I1->O           2   0.276   0.527  CLOCK3_SSPSI_o139 (CLOCK3_SSPSI_o139)
+     LUT4:I1->O            1   0.643   0.000  CLOCK3_SSPSI_o1891 (CLOCK3_SSPSI_o189)
+     MUXF5:I1->O           1   0.276   0.420  CLOCK3_SSPSI_o189_f5 (CLOCK3_SSPSI_o)
+     end scope: 'clk3'
+     end scope: 'core'
+     OBUF:I->O                 4.520          CLOCK3_SSPSI_p_OBUF (CLOCK3_SSPSI_p)
+    ----------------------------------------
+    Total                     14.678ns (10.093ns logic, 4.585ns route)
+                                       (68.8% logic, 31.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.591ns (Levels of Logic = 0)
+  Source:            icon_inst/U0/U_ICON/U_TDO_reg (FF)
+  Destination:       icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:TDO1 (PAD)
+  Source Clock:      icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon_inst/U0/U_ICON/U_TDO_reg to icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS:TDO1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              0   0.591   0.000  U0/U_ICON/U_TDO_reg (U0/U_ICON/iTDO)
+    BSCAN_SPARTAN3A:TDO1        0.000          U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3A.U_BS
+    ----------------------------------------
+    Total                      0.591ns (0.591ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               7.154ns (Levels of Logic = 4)
+  Source:            DSP_RESETSTAT_np (PAD)
+  Destination:       NAND_WP_p (PAD)
+
+  Data Path: DSP_RESETSTAT_np to NAND_WP_p
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.849   0.611  DSP_RESETSTAT_np_IBUF (DSP_RESETSTAT_np_IBUF)
+     begin scope: 'core'
+     LUT3:I1->O            3   0.643   0.531  nor_wp_no_and00001 (debug_sig<0>)
+     end scope: 'core'
+     OBUF:I->O                 4.520          NAND_WP_p_OBUF (NAND_WP_p)
+    ----------------------------------------
+    Total                      7.154ns (6.012ns logic, 1.142ns route)
+                                       (84.0% logic, 16.0% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to vio_inst.
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to vio_inst.
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to icon_inst.
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to icon_inst.
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to ila_inst.
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to ila_inst.
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.36 secs
+ 
+--> 
+
+Total memory usage is 315076 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  226 (   0 filtered)
+Number of infos    :   33 (   0 filtered)
+

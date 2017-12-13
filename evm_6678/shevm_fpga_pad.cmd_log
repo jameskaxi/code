@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj evm_6678 -o D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga_pad.tfi -lib work D:/FPGA/1614/evm_6678-171108/evm_6678/src//shevm_fpga_pad.v -module shevm_fpga_pad -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
