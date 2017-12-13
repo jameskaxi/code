@@ -1,0 +1,15 @@
+core5.out
+-a
+-boot
+-e _c_int00
+-order L
+-map core5.map
+ROMS
+{
+   ROM1:  org = 0x0880, length = 0x2000000, memwidth = 32, romwidth = 32
+          files = { core5.btbl }
+          
+}          
+          
+          
+          

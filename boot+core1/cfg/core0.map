@@ -1,0 +1,29 @@
+********************************************************************************
+TMS320C6x Hex Converter                                                   v7.4.2
+********************************************************************************
+
+INPUT FILE NAME: <core0.out>
+OUTPUT FORMAT:   ASCII-Hex
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :  32
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x0880, PAGE 0
+   Entry Point  : 0x10800000  (_c_int00)
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000880..0200087f  Page=0  Memory Width=32  ROM Width=32  "ROM1"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: core0.btbl [b0..b31]
+
+   CONTENTS: 00000880..0000f1bf   BOOT TABLE
+                            .text : btad=00000880  dest=10820080 size=0000e500
+                           .cinit : btad=0000ed8c  dest=10831124 size=0000012c
+                           .const : btad=0000eec0  dest=10830da0 size=00000242
+                          .switch : btad=0000f10c  dest=10831104 size=00000020
+                          .myboot : btad=0000f134  dest=10800000 size=00000080

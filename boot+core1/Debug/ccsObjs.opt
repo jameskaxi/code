@@ -1,0 +1,1 @@
+"./src/platform.obj" "./src/evmc66x_uart.obj" "./src/evmc66x_spi.obj" "./src/evmc66x_nor.obj" "./src/evmc66x_i2c_eeprom.obj" "./src/evmc66x_gpio.obj" "./src/evmc66x_fpga.obj" "./src/evmc6678_phy.obj" "./src/evmc6678.obj" "./src/evm66x_nand.obj" "./src/evm66x_i2c.obj" "./src/csl_gpioGetBaseAddress.obj" "./xmc_setup.obj" "./nand_flash.obj" "./main.obj" -l"libc.a" "../link.cmd" 
