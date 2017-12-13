@@ -1,1 +1,0 @@
-vhdtdtfi -lang verilog -prj evm_6678 -o D:/FPGA/1614/evm_6678-171108/evm_6678/shevm_fpga_core.tfi -lib work D:/FPGA/1614/evm_6678-171108/evm_6678/src//shevm_fpga_core.v -module shevm_fpga_core -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
