@@ -1,0 +1,10 @@
+ssh-keygen -t rsa -C "emal@youremai.com"
+ssh -T git@github.com
+git config --global user.name "your name"
+git config --global user.email "email@youremal.com"
+git remote add origin git@github.com:yourname/yourRepo.git
+git add .
+git commit -m "xxxxx"
+
+git branch "branch"
+git push origin "branch"
